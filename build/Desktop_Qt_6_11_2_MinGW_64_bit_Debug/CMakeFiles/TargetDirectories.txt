@@ -1,0 +1,9 @@
+C:/Users/shuva/reps/c++/SystemMonitor/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/CMakeFiles/SystemMonitor.dir
+C:/Users/shuva/reps/c++/SystemMonitor/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/CMakeFiles/edit_cache.dir
+C:/Users/shuva/reps/c++/SystemMonitor/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/shuva/reps/c++/SystemMonitor/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/CMakeFiles/list_install_components.dir
+C:/Users/shuva/reps/c++/SystemMonitor/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/CMakeFiles/install.dir
+C:/Users/shuva/reps/c++/SystemMonitor/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/CMakeFiles/install/local.dir
+C:/Users/shuva/reps/c++/SystemMonitor/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/CMakeFiles/install/strip.dir
+C:/Users/shuva/reps/c++/SystemMonitor/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/CMakeFiles/SystemMonitor_autogen_timestamp_deps.dir
+C:/Users/shuva/reps/c++/SystemMonitor/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/CMakeFiles/SystemMonitor_autogen.dir
