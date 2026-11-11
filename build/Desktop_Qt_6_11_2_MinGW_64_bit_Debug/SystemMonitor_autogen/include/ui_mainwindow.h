@@ -11,7 +11,6 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QCalendarWidget>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
@@ -30,7 +29,6 @@ public:
     QStackedWidget *stackedWidget;
     QWidget *page;
     QWidget *page_2;
-    QCalendarWidget *calendarWidget;
     QLabel *CpuInfo;
     QMenuBar *menubar;
     QStatusBar *statusbar;
@@ -53,12 +51,15 @@ public:
         stackedWidget->addWidget(page);
         page_2 = new QWidget();
         page_2->setObjectName("page_2");
-        calendarWidget = new QCalendarWidget(page_2);
-        calendarWidget->setObjectName("calendarWidget");
-        calendarWidget->setGeometry(QRect(180, 110, 224, 163));
         CpuInfo = new QLabel(page_2);
         CpuInfo->setObjectName("CpuInfo");
-        CpuInfo->setGeometry(QRect(10, 10, 49, 16));
+        CpuInfo->setGeometry(QRect(10, 10, 200, 16));
+        QSizePolicy sizePolicy(QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Preferred);
+        sizePolicy.setHorizontalStretch(0);
+        sizePolicy.setVerticalStretch(0);
+        sizePolicy.setHeightForWidth(CpuInfo->sizePolicy().hasHeightForWidth());
+        CpuInfo->setSizePolicy(sizePolicy);
+        CpuInfo->setTextFormat(Qt::TextFormat::PlainText);
         stackedWidget->addWidget(page_2);
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);

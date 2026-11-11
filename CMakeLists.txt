@@ -80,3 +80,6 @@ install(TARGETS SystemMonitor
 if(QT_VERSION_MAJOR EQUAL 6)
     qt_finalize_executable(SystemMonitor)
 endif()
+
+find_package(Qt6 REQUIRED COMPONENTS Core Gui Widgets Charts) # Добавлен Charts
+target_link_libraries(SystemMonitor PRIVATE Qt6::Widgets Qt6::Charts) # Добавлен Qt6::Charts

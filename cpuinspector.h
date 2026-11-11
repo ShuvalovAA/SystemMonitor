@@ -7,4 +7,4 @@ public:
     CPUInspector();
 };
 
-#endif // CPUINSPECTOR_H
+#endif

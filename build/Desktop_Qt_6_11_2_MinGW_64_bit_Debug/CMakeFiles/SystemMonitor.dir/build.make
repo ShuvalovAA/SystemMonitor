@@ -167,7 +167,10 @@ SystemMonitor.exe: CMakeFiles/SystemMonitor.dir/mainwindow.cpp.obj
 SystemMonitor.exe: CMakeFiles/SystemMonitor.dir/cpuinspector.cpp.obj
 SystemMonitor.exe: CMakeFiles/SystemMonitor.dir/CPUInspectorWindows.cpp.obj
 SystemMonitor.exe: CMakeFiles/SystemMonitor.dir/build.make
+SystemMonitor.exe: C:/Qt/6.11.2/mingw_64/lib/libQt6Charts.a
+SystemMonitor.exe: C:/Qt/6.11.2/mingw_64/lib/libQt6OpenGLWidgets.a
 SystemMonitor.exe: C:/Qt/6.11.2/mingw_64/lib/libQt6Widgets.a
+SystemMonitor.exe: C:/Qt/6.11.2/mingw_64/lib/libQt6OpenGL.a
 SystemMonitor.exe: C:/Qt/6.11.2/mingw_64/lib/libQt6Gui.a
 SystemMonitor.exe: C:/Qt/6.11.2/mingw_64/lib/libQt6Core.a
 SystemMonitor.exe: C:/Qt/6.11.2/mingw_64/lib/libQt6EntryPoint.a
